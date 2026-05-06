@@ -112,7 +112,7 @@ S_cons = Meta(LR_struct, LR_ppl, LR_style)
 
 ## 🔗 3. Final Fusion
 
-```math
+```text
 S_final = α·S_text + (1-α)·S_cons
 ```
 
