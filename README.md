@@ -129,7 +129,7 @@ S_final = α·S_text + (1-α)·S_cons
 
 ```
 ├── Feature_extractions_终_(1).ipynb   # Feature extraction pipeline
-├── dualpath_detection.ipynb           # Training + evaluation + experiments
+├── Dual-Path_Detection.ipynb           # Training + evaluation + experiments
 ├── data/
 │   ├──readme.md
 │   ├── human&_claude-academic.xlsx
@@ -170,7 +170,7 @@ Feature_extractions.ipynb
 Output:
 
 ```
-data/extracted_features.csv
+data/extracted_features.xlsx
 ```
 
 ---
@@ -180,7 +180,7 @@ data/extracted_features.csv
 Run:
 
 ```
-dualpath_detection.ipynb
+Dual-Path_Detection.ipynb
 ```
 
 Pipeline:
@@ -240,7 +240,7 @@ Evaluate model degradation under attack.
 
 # 📊 Key Figures
 
-Generated in `dualpath_detection.ipynb`:
+Generated in `Dual-Path_Detection.ipynb`:
 
 * Cross-paragraph feature distributions (Fig 1–3)
 * Calibration vs AUROC (Fig 5)
