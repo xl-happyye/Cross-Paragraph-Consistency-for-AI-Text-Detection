@@ -7,7 +7,7 @@ We propose a **Dual-Path Detection Framework** for AI-generated text detection u
 * 🧩 Semantic Evidence Path → pretrained LM classifiers (local signals)
 * 📊 Cross-Paragraph Consistency Path → discourse-level structural + stylistic consistency
 * 🔗 Fusion → adaptive weighted ensemble with safety-aware calibration
-* 🧪 Strong robustness under adversarial attack texts
+* 🧪 200 samples per class are sufficient for effective calibration.
 
 
 ---
@@ -18,7 +18,7 @@ This repository implements the paper:
 
 > **Modeling Cross-Paragraph Consistency for Few-Shot AI-Generated Text Detection: A Dual-Path Framework**
 
-The key idea is that AI-generated text is not only detectable via **local semantic cues**, but also via **global inconsistency across discourse structure**.
+ Our key observation is that human writing often exhibits greater stylistic vari-ation across discourse segments, whereas AI-generated text tends to maintain a more uniform stylistic distribution.
 
 ---
 
