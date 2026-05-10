@@ -25,3 +25,38 @@ Additional details:
 - AI-generated texts are generated using the same or semantically similar prompts as the human-written texts.
 - The dataset is balanced between human and AI-generated samples.
 - Samples are reorganized to support discourse-level and cross-paragraph consistency analysis.
+
+### `news_attack.xlsx`, `story_attack.xlsx`, `academic_attack.xlsx`
+
+These files contain attack-processed datasets based on AI-generated texts produced by `Claude`.
+
+The datasets correspond to three domains:
+
+* `news_attack.xlsx` → Xsum
+* `story_attack.xlsx` → Writingprompt
+* `academic_attack.xlsx` → Arivx
+
+Each dataset includes:
+
+* 300 human-written texts
+* 300 AI-generated texts
+
+The attack strategies applied to the AI-generated texts include:
+
+* back-translation
+* noise injection
+* word substitution
+
+The attack ratio is:
+
+* 0.3 back-translation
+* 0.4 noise injection
+* 0.3 word substitution
+
+Additional details:
+
+* Human-written and AI-generated samples are balanced within each dataset.
+* The attacked AI-generated texts are designed to evaluate the robustness of AI-generated text detection models under adversarial perturbations.
+
+
+### M4.xlsx contains the extracted features of M4 and is used for plotting Figures 1–3 in the paper.
