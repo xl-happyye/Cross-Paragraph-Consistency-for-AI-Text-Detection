@@ -141,6 +141,10 @@ S_final = α·S_text + (1-α)·S_cons
 │   ├── human&_GPT-4-academic.xlsx
 │   ├── human&_GPT-4-news.xlsx
 │   ├── human&_GPT-4-story.xlsx
+│   ├──academic_attacked.xlsx
+│   ├──news_attacked.xlsx
+│   ├──story_attacked.xlsx
+│   ├──M4.xlsx
 └── README.md
 ```
 
@@ -234,6 +238,11 @@ We include:
 Evaluate model degradation under attack.
 
 ---
+## Baseline Reproduction
+
+Baseline results are reproduced using the official implementation of DNA-DetectLLM:
+
+https://github.com/Xiaoweizhu57/DNA-DetectLLM
 
 # 📊 Key Figures
 
